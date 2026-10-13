@@ -1,0 +1,12 @@
+Neha Gupta
+neha.g@example.com
+
+Skills
+Python, Machine Learning
+
+Experience
+Worked on cloud deployments and machine learning applications.
+Built projects using Python. No dates available.
+
+Education
+Bachelor's degree

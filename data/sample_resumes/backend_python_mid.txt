@@ -1,0 +1,15 @@
+Priya Nair
+priya.nair@example.com | Kochi, Kerala
+
+Summary
+Backend developer with 1.5 years of experience in Python APIs.
+
+Skills
+Python, FastAPI, SQL, Docker, Git, PostgreSQL, Redis
+
+Experience
+Software Engineer at Zoho, Jan 2024 - Present
+Developed backend services using Python and FastAPI. Wrote SQL queries for PostgreSQL.
+
+Education
+B.Tech Information Technology, Anna University, 2020 - 2024

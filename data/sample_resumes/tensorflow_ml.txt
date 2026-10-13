@@ -1,0 +1,12 @@
+Divya Reddy
+divya.r@example.com | Chennai, Tamil Nadu | https://github.com/divyadl
+
+Skills
+Python, TensorFlow, Machine Learning, SQL, Docker, scikit-learn
+
+Experience
+Machine Learning Engineer at Freshworks, Jan 2025 - Present
+Trained deep learning models with TensorFlow. Built ML pipelines using Python and SQL.
+
+Education
+Bachelor's in Computer Science, VIT, 2020 - 2024

@@ -1,0 +1,260 @@
+{
+  "canonical": {
+    "Python": "PROGRAMMING_LANGUAGE",
+    "Java": "PROGRAMMING_LANGUAGE",
+    "JavaScript": "PROGRAMMING_LANGUAGE",
+    "TypeScript": "PROGRAMMING_LANGUAGE",
+    "C++": "PROGRAMMING_LANGUAGE",
+    "Go": "PROGRAMMING_LANGUAGE",
+    "Rust": "PROGRAMMING_LANGUAGE",
+    "SQL": "DATABASE",
+    "PostgreSQL": "DATABASE",
+    "MongoDB": "DATABASE",
+    "Redis": "DATABASE",
+    "MySQL": "DATABASE",
+    "React": "FRAMEWORK",
+    "Angular": "FRAMEWORK",
+    "Vue.js": "FRAMEWORK",
+    "Django": "FRAMEWORK",
+    "Flask": "FRAMEWORK",
+    "FastAPI": "FRAMEWORK",
+    "Spring": "FRAMEWORK",
+    "Node.js": "FRAMEWORK",
+    "PyTorch": "FRAMEWORK",
+    "TensorFlow": "FRAMEWORK",
+    "scikit-learn": "FRAMEWORK",
+    "pandas": "TOOL",
+    "NumPy": "TOOL",
+    "Spark": "TOOL",
+    "Hadoop": "TOOL",
+    "Airflow": "TOOL",
+    "Kafka": "TOOL",
+    "Docker": "TOOL",
+    "Kubernetes": "CLOUD",
+    "AWS": "CLOUD",
+    "GCP": "CLOUD",
+    "Azure": "CLOUD",
+    "Terraform": "CLOUD",
+    "Jenkins": "TOOL",
+    "Git": "TOOL",
+    "GitHub": "TOOL",
+    "GitLab": "TOOL",
+    "Linux": "TOOL",
+    "GraphQL": "TOOL",
+    "REST": "TOOL",
+    "CI/CD": "TOOL",
+    "Machine Learning": "DOMAIN",
+    "Deep Learning": "DOMAIN",
+    "NLP": "DOMAIN"
+  },
+  "aliases": {
+    "postgres": "PostgreSQL",
+    "postgresql": "PostgreSQL",
+    "k8s": "Kubernetes",
+    "js": "JavaScript",
+    "ts": "TypeScript",
+    "tf": "TensorFlow",
+    "tensor flow": "TensorFlow",
+    "tensorflow": "TensorFlow",
+    "pytorch": "PyTorch",
+    "torch": "PyTorch",
+    "amazon web services": "AWS",
+    "aws": "AWS",
+    "gcp": "GCP",
+    "google cloud": "GCP",
+    "azure": "Azure",
+    "scikit learn": "scikit-learn",
+    "sklearn": "scikit-learn",
+    "reactjs": "React",
+    "react.js": "React",
+    "node": "Node.js",
+    "nodejs": "Node.js",
+    "fast api": "FastAPI",
+    "fastapi": "FastAPI",
+    "ci/cd": "CI/CD",
+    "ml": "Machine Learning",
+    "machine learning": "Machine Learning",
+    "dl": "Deep Learning",
+    "deep learning": "Deep Learning",
+    "nlp": "NLP",
+    "natural language processing": "NLP",
+    "sql": "SQL",
+    "python": "Python",
+    "java": "Java",
+    "c++": "C++",
+    "go": "Go",
+    "golang": "Go",
+    "rust": "Rust",
+    "docker": "Docker",
+    "kubernetes": "Kubernetes",
+    "terraform": "Terraform",
+    "jenkins": "Jenkins",
+    "airflow": "Airflow",
+    "spark": "Spark",
+    "hadoop": "Hadoop",
+    "pandas": "pandas",
+    "numpy": "NumPy",
+    "django": "Django",
+    "flask": "Flask",
+    "spring": "Spring",
+    "angular": "Angular",
+    "vue": "Vue.js",
+    "vuejs": "Vue.js",
+    "mongodb": "MongoDB",
+    "mongo": "MongoDB",
+    "redis": "Redis",
+    "kafka": "Kafka",
+    "graphql": "GraphQL",
+    "rest": "REST",
+    "linux": "Linux",
+    "git": "Git",
+    "github": "GitHub",
+    "gitlab": "GitLab"
+  },
+  "relationships": [
+    {
+      "a": "PyTorch",
+      "b": "TensorFlow",
+      "type": "TRANSFERABLE",
+      "strength": 0.85
+    },
+    {
+      "a": "TensorFlow",
+      "b": "PyTorch",
+      "type": "TRANSFERABLE",
+      "strength": 0.85
+    },
+    {
+      "a": "PyTorch",
+      "b": "JAX",
+      "type": "TRANSFERABLE",
+      "strength": 0.6
+    },
+    {
+      "a": "scikit-learn",
+      "b": "Machine Learning",
+      "type": "SUBSET",
+      "strength": 0.7
+    },
+    {
+      "a": "PyTorch",
+      "b": "Deep Learning",
+      "type": "SUBSET",
+      "strength": 0.7
+    },
+    {
+      "a": "TensorFlow",
+      "b": "Deep Learning",
+      "type": "SUBSET",
+      "strength": 0.7
+    },
+    {
+      "a": "React",
+      "b": "Angular",
+      "type": "TRANSFERABLE",
+      "strength": 0.6
+    },
+    {
+      "a": "React",
+      "b": "Vue.js",
+      "type": "TRANSFERABLE",
+      "strength": 0.65
+    },
+    {
+      "a": "Angular",
+      "b": "Vue.js",
+      "type": "TRANSFERABLE",
+      "strength": 0.6
+    },
+    {
+      "a": "Django",
+      "b": "Flask",
+      "type": "TRANSFERABLE",
+      "strength": 0.7
+    },
+    {
+      "a": "Django",
+      "b": "FastAPI",
+      "type": "TRANSFERABLE",
+      "strength": 0.65
+    },
+    {
+      "a": "Flask",
+      "b": "FastAPI",
+      "type": "TRANSFERABLE",
+      "strength": 0.7
+    },
+    {
+      "a": "PostgreSQL",
+      "b": "MySQL",
+      "type": "TRANSFERABLE",
+      "strength": 0.75
+    },
+    {
+      "a": "PostgreSQL",
+      "b": "SQL",
+      "type": "SUBSET",
+      "strength": 0.9
+    },
+    {
+      "a": "MySQL",
+      "b": "SQL",
+      "type": "SUBSET",
+      "strength": 0.9
+    },
+    {
+      "a": "MongoDB",
+      "b": "PostgreSQL",
+      "type": "RELATED",
+      "strength": 0.4
+    },
+    {
+      "a": "Docker",
+      "b": "Kubernetes",
+      "type": "DEPENDENCY",
+      "strength": 0.6
+    },
+    {
+      "a": "AWS",
+      "b": "GCP",
+      "type": "TRANSFERABLE",
+      "strength": 0.7
+    },
+    {
+      "a": "AWS",
+      "b": "Azure",
+      "type": "TRANSFERABLE",
+      "strength": 0.7
+    },
+    {
+      "a": "GCP",
+      "b": "Azure",
+      "type": "TRANSFERABLE",
+      "strength": 0.7
+    },
+    {
+      "a": "Java",
+      "b": "Python",
+      "type": "RELATED",
+      "strength": 0.35
+    },
+    {
+      "a": "JavaScript",
+      "b": "TypeScript",
+      "type": "SUPERSET",
+      "strength": 0.85
+    },
+    {
+      "a": "Machine Learning",
+      "b": "Deep Learning",
+      "type": "SUPERSET",
+      "strength": 0.6
+    },
+    {
+      "a": "NLP",
+      "b": "Machine Learning",
+      "type": "SUBSET",
+      "strength": 0.7
+    }
+  ]
+}

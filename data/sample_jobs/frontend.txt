@@ -1,0 +1,5 @@
+Frontend Developer
+Requirements:
+- 2+ years React experience required
+- Strong JavaScript and TypeScript required
+- GraphQL experience preferred

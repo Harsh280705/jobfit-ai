@@ -1,0 +1,11 @@
+Rahul Yadav
+rahul.y@example.com
+
+Skills
+Python, Java
+
+Experience
+College projects using Python and Java. Coursework in data structures.
+
+Education
+B.Tech Computer Science, 2021 - 2025

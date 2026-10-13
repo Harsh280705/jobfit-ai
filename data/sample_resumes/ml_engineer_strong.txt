@@ -1,0 +1,23 @@
+Aarav Sharma
+aarav.sharma@example.com | phone: [REDACTED - synthetic fixture] | Bengaluru, Karnataka
+LinkedIn: https://linkedin.com/in/aaravsharma | GitHub: https://github.com/aaravml
+
+Summary
+ML Engineer with 4 years of experience building production NLP and recommendation systems.
+
+Skills
+Python, PyTorch, TensorFlow, SQL, Docker, Kubernetes, AWS, FastAPI, PostgreSQL, scikit-learn
+
+Experience
+ML Engineer at Flipkart, Jan 2022 - Present
+Built ranking models using Python and PyTorch. Deployed with Docker and Kubernetes on AWS.
+Improved CTR by 12%. Used SQL and PostgreSQL for feature pipelines.
+
+Software Engineer at Infosys, Jun 2020 - Dec 2021
+Backend services using Python and FastAPI. Worked with SQL and Docker.
+
+Education
+M.Tech Computer Science, IIT Bombay, 2018 - 2020
+
+Projects
+Real-time product recommendations with PyTorch and FastAPI.

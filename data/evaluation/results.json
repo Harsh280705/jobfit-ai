@@ -1,0 +1,145 @@
+{
+  "dataset": "cases.json",
+  "n_cases": 26,
+  "results": {
+    "keyword": {
+      "accuracy": 0.654,
+      "precision": 0.75,
+      "recall": 0.462,
+      "f1": 0.571,
+      "false_positive_rate": 0.154,
+      "false_negative_rate": 0.538,
+      "support": 26,
+      "confusion": {
+        "tp": 6,
+        "tn": 11,
+        "fp": 2,
+        "fn": 7
+      }
+    },
+    "tfidf": {
+      "accuracy": 0.462,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.077,
+      "false_negative_rate": 1.0,
+      "support": 26,
+      "confusion": {
+        "tp": 0,
+        "tn": 12,
+        "fp": 1,
+        "fn": 13
+      }
+    },
+    "semantic": {
+      "accuracy": 0.462,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.077,
+      "false_negative_rate": 1.0,
+      "support": 26,
+      "confusion": {
+        "tp": 0,
+        "tn": 12,
+        "fp": 1,
+        "fn": 13
+      }
+    },
+    "proposed": {
+      "accuracy": 0.808,
+      "precision": 0.786,
+      "recall": 0.846,
+      "f1": 0.815,
+      "false_positive_rate": 0.231,
+      "false_negative_rate": 0.154,
+      "support": 26,
+      "confusion": {
+        "tp": 11,
+        "tn": 10,
+        "fp": 3,
+        "fn": 2
+      }
+    },
+    "rl": {
+      "accuracy": 0.769,
+      "precision": 0.733,
+      "recall": 0.846,
+      "f1": 0.786,
+      "false_positive_rate": 0.308,
+      "false_negative_rate": 0.154,
+      "support": 26,
+      "confusion": {
+        "tp": 11,
+        "tn": 9,
+        "fp": 4,
+        "fn": 2
+      }
+    }
+  },
+  "ablation": {
+    "n_cases": 26,
+    "n_changed": 8,
+    "n_changed_correct": 4,
+    "n_changed_incorrect": 3,
+    "n_unchanged": 18,
+    "base_false_positives": 3,
+    "rl_false_positives": 4,
+    "false_positives_delta": 1,
+    "base_false_negatives": 2,
+    "rl_false_negatives": 2,
+    "false_negatives_delta": 0
+  },
+  "fine_grained": {
+    "proposed": {
+      "mandatory_decision_accuracy": 0.524,
+      "transferable_match_accuracy": 0.667,
+      "missing_requirement_accuracy": 0.0,
+      "n_mandatory": 21,
+      "n_transferable": 3,
+      "n_missing": 7
+    },
+    "rl": {
+      "mandatory_decision_accuracy": 0.667,
+      "transferable_match_accuracy": 0.667,
+      "missing_requirement_accuracy": 0.571,
+      "n_mandatory": 21,
+      "n_transferable": 3,
+      "n_missing": 7
+    }
+  },
+  "rl": {
+    "used": true,
+    "train_metadata": {
+      "n_cases": 26,
+      "n_train_real": 18,
+      "n_synthetic": 240,
+      "synthetic": true,
+      "synthetic_note": "Gaussian perturbations of documented per-status prototypes; training only.",
+      "test_indices": [
+        4,
+        8,
+        9,
+        10,
+        12,
+        15,
+        17,
+        20
+      ],
+      "label_counts": {
+        "FULLY_SATISFIED": 11,
+        "MISSING": 7,
+        "PARTIALLY_SATISFIED": 2,
+        "TRANSFERABLE": 3,
+        "INSUFFICIENT_EVIDENCE": 2,
+        "CONTRADICTORY": 1
+      },
+      "episodes": 2000,
+      "mean_train_reward": 1.245,
+      "greedy_train_accuracy": 0.9729,
+      "algorithm": "epsilon-greedy linear Q-learning (contextual bandit, gamma=0)",
+      "seed": 42
+    }
+  }
+}

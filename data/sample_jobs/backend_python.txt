@@ -1,0 +1,7 @@
+Backend Python Developer
+Requirements:
+- 2+ years Python experience required
+- Strong SQL required
+- Experience with FastAPI or Django required
+- Docker experience preferred
+- Bachelor's degree required

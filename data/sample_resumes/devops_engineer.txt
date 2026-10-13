@@ -1,0 +1,15 @@
+Sneha Kulkarni
+sneha.k@example.com | Hyderabad, Telangana
+
+Skills
+Docker, Kubernetes, AWS, Terraform, Jenkins, Linux, CI/CD, Python
+
+Experience
+DevOps Engineer at RedHat, Jul 2019 - Present
+Managed Kubernetes clusters on AWS. Built CI/CD with Jenkins. Automated with Terraform and Python.
+
+Education
+B.Tech Computer Science, JNTU, 2015 - 2019
+
+Certifications
+AWS Certified Solutions Architect Associate, 2022

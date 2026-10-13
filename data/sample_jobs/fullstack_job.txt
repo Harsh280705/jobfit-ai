@@ -1,0 +1,6 @@
+Full Stack Developer
+Requirements:
+- Python AND React required
+- PostgreSQL required
+- Docker preferred
+- AWS preferred

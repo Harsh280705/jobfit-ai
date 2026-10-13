@@ -1,0 +1,184 @@
+[
+  {
+    "requirement": "Python",
+    "resume": "Built backend services using Python and FastAPI.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "direct match",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "Python",
+    "resume": "Java backend developer. Spring microservices.",
+    "expected_status": "MISSING",
+    "reason": "absent skill",
+    "category": "missing"
+  },
+  {
+    "requirement": "3+ years of Python experience",
+    "resume": "Software Engineer at Zoho, Jan 2024 - Present. Developed backend services using Python and FastAPI.",
+    "expected_status": "PARTIALLY_SATISFIED",
+    "reason": "1 year vs 3 required",
+    "category": "partial_experience"
+  },
+  {
+    "requirement": "PyTorch",
+    "resume": "Trained deep learning models with TensorFlow and Python.",
+    "expected_status": "TRANSFERABLE",
+    "reason": "related DL framework",
+    "category": "transferable"
+  },
+  {
+    "requirement": "Python AND SQL",
+    "resume": "Backend services using Python and FastAPI. No database work.",
+    "expected_status": "MISSING",
+    "reason": "AND group not fully satisfied",
+    "category": "and_logic"
+  },
+  {
+    "requirement": "Python OR Java",
+    "resume": "Backend services using Python and FastAPI.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "OR satisfied by Python",
+    "category": "or_logic"
+  },
+  {
+    "requirement": "3 years Kubernetes experience",
+    "resume": "Worked on cloud deployments. No dates available.",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "reason": "missing dates",
+    "category": "insufficient_dates"
+  },
+  {
+    "requirement": "Python",
+    "resume": "Python developer with 10 years of experience. Software Engineer at StartupXYZ, Jan 2023 - Present. Backend using Python.",
+    "expected_status": "CONTRADICTORY",
+    "reason": "claim exceeds timeline",
+    "category": "contradictory"
+  },
+  {
+    "requirement": "PostgreSQL",
+    "resume": "Used Postgres for feature pipelines and SQL queries.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "alias match",
+    "category": "alias"
+  },
+  {
+    "requirement": "Master's degree",
+    "resume": "Bachelor's in Computer Science, VIT, 2020 - 2024.",
+    "expected_status": "MISSING",
+    "reason": "education gap",
+    "category": "education"
+  },
+  {
+    "requirement": "Master's degree preferred",
+    "resume": "Master's in Computer Science, Jadavpur University.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "education satisfied",
+    "category": "education"
+  },
+  {
+    "requirement": "AWS",
+    "resume": "Managed Kubernetes clusters on AWS with Terraform.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "direct cloud match",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "GCP",
+    "resume": "Managed Kubernetes clusters on AWS with Terraform.",
+    "expected_status": "TRANSFERABLE",
+    "reason": "cloud transferability",
+    "category": "transferable"
+  },
+  {
+    "requirement": "React",
+    "resume": "Backend Engineer at Paytm. Java and Spring microservices.",
+    "expected_status": "MISSING",
+    "reason": "frontend absent",
+    "category": "missing"
+  },
+  {
+    "requirement": "SQL",
+    "resume": "Wrote SQL queries and built dashboards with PostgreSQL.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "direct",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "Kubernetes",
+    "resume": "Worked on cloud deployments.",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "reason": "vague cloud mention",
+    "category": "insufficient_dates"
+  },
+  {
+    "requirement": "Docker",
+    "resume": "Deployed with Docker and Kubernetes on AWS.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "direct",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "5 years Machine Learning experience",
+    "resume": "Machine Learning Engineer at Freshworks, Jan 2025 - Present. Trained models with TensorFlow.",
+    "expected_status": "PARTIALLY_SATISFIED",
+    "reason": "~1yr vs 5",
+    "category": "partial_experience"
+  },
+  {
+    "requirement": "TensorFlow",
+    "resume": "Built ranking models using Python and PyTorch.",
+    "expected_status": "TRANSFERABLE",
+    "reason": "reverse DL transfer",
+    "category": "transferable"
+  },
+  {
+    "requirement": "Java",
+    "resume": "Built ranking models using Python and PyTorch.",
+    "expected_status": "MISSING",
+    "reason": "weak relation not transferable",
+    "category": "missing"
+  },
+  {
+    "requirement": "Strong Python skills required",
+    "resume": "Developed APIs using Python for ML applications.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "paraphrase direct",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "2+ years SQL experience",
+    "resume": "Data Analyst, Feb 2022 - Present. Wrote SQL queries daily with PostgreSQL.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "dated SQL evidence",
+    "category": "exact_match"
+  },
+  {
+    "requirement": "PyTorch required",
+    "resume": "Deep learning with JAX and NumPy.",
+    "expected_status": "MISSING",
+    "reason": "JAX not configured as strong transfer",
+    "category": "missing"
+  },
+  {
+    "requirement": "FastAPI",
+    "resume": "Backend services using Fast API and Python.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "alias spacing",
+    "category": "alias"
+  },
+  {
+    "requirement": "Kubernetes required",
+    "resume": "Docker containers and CI/CD pipelines.",
+    "expected_status": "MISSING",
+    "reason": "related but not same",
+    "category": "missing"
+  },
+  {
+    "requirement": "Python",
+    "resume": "Built ETL pipelines using Python, SQL and Airflow.",
+    "expected_status": "FULLY_SATISFIED",
+    "reason": "direct variant",
+    "category": "exact_match"
+  }
+]

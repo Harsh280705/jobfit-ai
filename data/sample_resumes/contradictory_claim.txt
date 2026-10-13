@@ -1,0 +1,15 @@
+Vikram Rao
+vikram.r@example.com | Bengaluru
+
+Summary
+Python developer with 10 years of experience.
+
+Skills
+Python, Django, SQL
+
+Experience
+Software Engineer at StartupXYZ, Jan 2023 - Present
+Backend development using Python and Django.
+
+Education
+B.Tech Computer Science, 2019 - 2023

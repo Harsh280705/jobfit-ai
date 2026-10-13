@@ -1,0 +1,112 @@
+# === JobFit AI — Python/FastAPI + React/Vite + Docker/Postgres/Redis + NLP ===
+
+# --- Environment & credentials (keep .env.example trackable) ---
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# --- Node / Vite / frontend ---
+node_modules/
+frontend/dist/
+.vite/
+vite.config.*.timestamp-*
+coverage/
+frontend/coverage/
+.npm/
+.node_repl_history
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+
+# --- IDE & OS ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# --- Docker & local runtime data (keep Dockerfiles/compose) ---
+pgdata/
+jobfit_storage/
+storage/
+uploads/
+logs/
+*.log
+tmp/
+temp/
+dump.rdb
+appendonlydir/
+*.aof
+
+# --- ML / NLP caches (keep small committed policy + ontology) ---
+# Keep: backend/app/nlp/rl/models/rl_policy.json, data/skill_ontology.json
+.transformers_cache/
+transformers_cache/
+.huggingface/
+torch_cache/
+spacy_cache/
+*.pt
+*.bin
+*.onnx
+checkpoints/
+mlruns/
+wandb/
+lightning_logs/
+
+# --- Tests / evaluation temp outputs (keep source fixtures + baselines) ---
+# Keep: backend/tests/**, scripts/**, data/sample_*, data/evaluation/cases.json, data/evaluation/results.json
+gap_validate.db
+test_*.db
+*.test.db
+evaluation_results_*.json
+eval_logs/
+reports/

@@ -1,0 +1,12 @@
+Rohan Verma
+rohan.v@example.com | Pune, Maharashtra | https://github.com/rohanv
+
+Skills
+JavaScript, TypeScript, React, Node.js, GraphQL, Git
+
+Experience
+Frontend Developer at Razorpay, Mar 2021 - Present
+Built dashboards using React and TypeScript. Consumed GraphQL APIs.
+
+Education
+B.E. Computer Science, Pune University, 2017 - 2021

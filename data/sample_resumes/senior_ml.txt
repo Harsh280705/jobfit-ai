@@ -1,0 +1,13 @@
+Ananya Iyer
+ananya.i@example.com | Bengaluru | https://linkedin.com/in/ananyaiyer
+
+Skills
+Python, PyTorch, Machine Learning, Deep Learning, SQL, AWS, Docker, Kubernetes
+
+Experience
+Senior ML Engineer at Google, Jan 2019 - Present
+Large-scale deep learning with Python and PyTorch. 5 years of ML experience.
+
+Education
+Master's in Computer Science, IIT Madras, 2015 - 2017
+PhD coursework in Machine Learning

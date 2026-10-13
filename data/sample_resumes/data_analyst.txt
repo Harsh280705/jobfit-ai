@@ -1,0 +1,12 @@
+Karan Mehta
+karan.m@example.com | Mumbai, Maharashtra
+
+Skills
+SQL, Python, pandas, NumPy, Tableau, PostgreSQL
+
+Experience
+Data Analyst at HDFC Bank, Feb 2022 - Present
+Wrote SQL queries and built dashboards. Used Python with pandas for analysis.
+
+Education
+Bachelor's in Statistics, Mumbai University, 2018 - 2021

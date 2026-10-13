@@ -1,0 +1,6 @@
+Data Analyst
+Requirements:
+- Strong SQL required
+- Python experience required
+- pandas experience preferred
+- Bachelor's degree required

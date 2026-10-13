@@ -1,0 +1,12 @@
+Ishita Bose
+ishita.b@example.com | Kolkata | https://github.com/ishita
+
+Skills
+Python, JavaScript, React, Django, PostgreSQL, Docker, AWS
+
+Experience
+Full Stack Developer at Swiggy, May 2021 - Present
+Django APIs and React frontends. Deployed on AWS with Docker. PostgreSQL databases.
+
+Education
+Master's in Computer Science, Jadavpur University, 2019 - 2021

@@ -1,0 +1,7 @@
+DevOps Engineer
+Requirements:
+- 3+ years Kubernetes experience required
+- AWS experience required
+- Terraform required
+- CI/CD experience required
+- Python experience preferred
