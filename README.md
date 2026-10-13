@@ -23,44 +23,55 @@ JobFit AI is an explainable resume–job matching system that evaluates candidat
 
 ### Prerequisites
 
-Install [Git](https://git-scm.com/), [Docker Desktop](https://www.docker.com/products/docker-desktop/), and ensure Docker Desktop is running.
+Install the following:
 
-### 1. Clone the repository
+- [Git](https://git-scm.com/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+Ensure Docker Desktop is running before starting the application.
+
+### 1. Clone the Repository
 
 bash
 git clone https://github.com/Harsh280705/jobfit-ai.git
 cd jobfit-ai
 
 
-### 2. Configure environment variables
+### 2. Configure Environment Variables
 
-Create your local environment file.
+Create a local environment file.
 
 *Windows PowerShell:*
+
 powershell
 Copy-Item .env.example .env
 
 
 *Linux/macOS:*
+
 bash
 cp .env.example .env
 
 
-Edit .env if needed. Use your own secure credentials for any non-local deployment.
+Edit .env if necessary. Use secure credentials for any non-local deployment, and never commit this file.
 
-### 3. Start the application
+### 3. Start the Application
+
+Run the following command from the project root:
 
 bash
 docker compose up --build
 
 
-Wait for the services to start, then open:
+Once the services have started, access the application:
 
-- *Frontend:* http://localhost:5173
-- *Backend API:* http://localhost:8000
-- *API documentation:* http://localhost:8000/docs
+| Service | URL |
+|---|---|
+| Frontend | [http://localhost:5173](http://localhost:5173) |
+| Backend API | [http://localhost:8000](http://localhost:8000) |
+| API Documentation | [http://localhost:8000/docs](http://localhost:8000/docs) |
 
-Stop the application with Ctrl+C. To stop the Compose services afterward, run:
+To stop the application, press Ctrl+C. Then run the following command to stop the Compose services:
 
 bash
 docker compose down
@@ -70,14 +81,16 @@ docker compose down
 
 Install Python and Node.js first. PostgreSQL and Redis must also be configured and running.
 
-*Backend — terminal 1:*
+*Backend — Terminal 1*
+
 bash
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 
 
-*Frontend — terminal 2:*
+*Frontend — Terminal 2*
+
 bash
 cd frontend
 npm install
@@ -88,7 +101,7 @@ For background processing, start the Celery worker in another terminal if Redis 
 
 ## Documentation
 
-See the docs/ directory for:
+Refer to the docs/ directory for detailed documentation:
 
 - ARCHITECTURE.md — System architecture
 - NLP_PIPELINE.md — NLP processing pipeline
@@ -98,6 +111,11 @@ See the docs/ directory for:
 
 ## Limitations and Security
 
-The evaluation uses synthetic data and requires a larger human-annotated benchmark. Authentication, rate limiting, and production hardening remain future work. Docker Compose uses development servers and is intended for local demonstrations, not production deployment.
+The evaluation uses synthetic data and requires a larger human-annotated benchmark. Authentication, rate limiting, and production hardening remain future work.
 
-Never commit .env files or upload real personal resumes to public demos. See SECURITY.md for security guidance.
+Docker Compose uses development servers and is intended for local demonstrations, not production deployment.
+
+*Security guidelines:*
+- Never commit .env files or expose credentials.
+- Do not upload real personal resumes to public demos.
+- Refer to [SECURITY.md](SECURITY.md) for security guidance.
