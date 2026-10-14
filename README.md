@@ -101,3 +101,4 @@ See the docs/ directory for:
 The evaluation uses synthetic data and requires a larger human-annotated benchmark. Authentication, rate limiting, and production hardening remain future work. Docker Compose uses development servers and is intended for local demonstrations, not production deployment.
 
 Never commit .env files or upload real personal resumes to public demos. See SECURITY.md for security guidance.
+<img width="1024" height="1536" alt="WhatsApp Image 2026-10-14 at 10 44 09" src="https://github.com/user-attachments/assets/995c5b38-5acb-4421-a7c6-b409ff229ecd" />
